@@ -462,6 +462,18 @@ i:hover {
 
 }
 
+.contact-text{
+  position: absolute;
+  top: 6rem;
+  left: 5rem;
+  color: #f5cfef;
+  font-size: 2rem;
+}
+
+.contact-text i{
+  padding-right: 1rem;
+}
+
 .contact form{
   display: flex;
   flex-direction: column;
@@ -523,7 +535,8 @@ textarea:hover{
 
 button:hover{
   border: 3px solid #f5cfef ;
-  color: #f5cfef;
+  color: #006e7f;
+  background-color:#dddddd;
 }
 /* -----FOOTER----------*/
 
@@ -668,6 +681,11 @@ label, input{
 footer .fa-brands{
   display: none;
 }
+
+.contact-text{
+ display: none;
+}
+
 
 }
 
