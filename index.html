@@ -26,10 +26,10 @@
             <i class="fa-solid fa-bars" id="menu-btn"> </i>
         </label>
         <ul>
-
-            <li><a href="#">Work</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a name="home"><i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
 
         </ul>
     </nav>
@@ -39,7 +39,7 @@
                 class="sunglasses">&#128374;</span></div>
         <div class="header-title">
 
-            <h1>I'm   <span>Pedro</span> , Front-End Webdeveloper, this is my portfolio webpage!</h1>
+            <h1>I'm   <span>Pedro</span> Front End Developer, this is my portfolio site!</h1>
 
 
         </div>
@@ -50,16 +50,16 @@
 
         <div class="tech-icons">
 
-            <h1>Web Development Projects</h1>
+            <h1 id="work">Website Projects</h1>
 
             <i class="fa-brands fa-html5">
             </i><i class="fa-brands fa-sass"></i><i class="fa-brands fa-css3-alt"></i><i
                 class="fa-brands fa-bootstrap"></i><i class="fa-brands fa-square-js"></i>
-                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-github"></i><i class="fa-brands fa-node"></i>
         </div>
         <div class="container">
             <div class="cv-html div1"> <a href="https://pedrolambarri.github.io/Robin-Webpage/" target="_blank"><img
-                        src="images/Robin.png" width="260px" alt=""></a>
+                        src="images/Robin.png" width="260px" alt="" class="img-box"></a>
                 <span>Project in progress</span>
 
             </div>
@@ -67,7 +67,7 @@
                 <p>Empty box ready for new proyects</p>
             </div>
             <div class="cv-html div3"> <a href="https://pedrolambarri.github.io/freelance-exercice/"
-                    target="_blank"><img src="images/freelance-exercice.png" width="280px" alt=""></a>
+                    target="_blank"><img src="images/freelance-exercice.png" width="280px" alt="" class="img-box"></a>
                 <span>FreeL-Exercice</span>
             </div>
             <div class="div4">
@@ -75,20 +75,20 @@
             </div>
             <div class="cv-html div5">
                 <a href="https://pedrolambarri.github.io/CV/" target="_blank"><img src="images/CVhtml.png"
-                        width="280px" alt=""></a>
+                        width="280px" alt="" class="img-box"></a>
                 <span>First attempts CV-HTML</span>
             </div>
             <div class="div6">
                 <p>Empty box ready for new proyects</p>
             </div>
             <div class="cv-html div7"> <a href="https://pedrolambarri.github.io/final-proyect/" target="_blank"><img
-                        src="images/frijoleros.png" width="280px" alt=""></a>
+                        src="images/frijoleros.png" width="280px" alt="" class="img-box"></a>
                 <span>Frijoleros HTML & CSS</span>
             </div>
             <div class="div8">
                 <p>Empty box ready for new proyects</p>
             </div>
-            <div class="cv-html div9"><a href="" target="_blank"><img src="images/Benys.png" width="280px" alt=""></a>
+            <div class="cv-html div9"><a href="" target="_blank"><img src="images/Benys.png" width="280px" alt="" class="img-box"></a>
                 <span>Benys-Burger Bootstrap & SASS</span>
             </div>
 
@@ -97,7 +97,7 @@
 
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
 
         <div class="about-text">
              
@@ -132,21 +132,21 @@
     </section>
 
     <section class="contact">
-        <form>
+        <form id="contact">
             <label for="name">What's your name?</label>
-            <input type="name">
+            <input id="name" type="name">
              <label for="email">Email</label>
-             <input type="email">
+             <input id="email" type="email">
              <label for="text">Write a comment!</label>
-             <textarea name="" id="" cols="30" rows="10"></textarea>
-             <button type="submit">Sende</button>
+             <textarea name="" id="text" cols="30" rows="10"></textarea>
+             <button type="submit">SEND</button>
              
         </form>
-        <div class="cactus-img"><img src="images/cactus.jpg" width="400px" alt="cactus-drawings"></div>
+        <div class="cactus-img"><img src="images/cactus3.png" width="400px" alt="cactus-drawings"></div>
     </section>
 
     <footer>
-        <button><i class="fa-solid fa-rocket"></i></button>
+        <a href="#top"><i class="fa-solid fa-rocket"></i></a>
         <a href=""><i class="fa-brands fa-linkedin"></i></a>
         <a href=""><i class="fa-brands fa-airbnb"></i></a>
         <a href=""><i class="fa-brands fa-github"></i></a>
