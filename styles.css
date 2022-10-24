@@ -65,6 +65,8 @@ header span{
   display: block;
 }
 
+/* ----Navbar-----*/
+
 nav {
   display: flex;
   background-color: rgba(255, 255, 255, .5);
@@ -82,7 +84,7 @@ ul {
   justify-content: space-around;
 }
 
-ul:hover a{
+.nav-items:hover a{
   color:white;
 }
 
@@ -409,13 +411,16 @@ i:hover {
 
 .about-text{
   width: 700px;
-  border: 1px solid black;
   font-size: 2rem;
   background-color:#525e75;
   color: white;
   border-radius: 8px;
   padding: 5rem;
   overflow: hidden;
+}
+
+.about-text:hover{
+  border: 1px solid aqua;
 }
 
 .about-text p{
@@ -425,6 +430,10 @@ i:hover {
   display: inline-block;
   padding: 1.5rem;
   margin-top:3rem;
+}
+
+.about-text:hover p{
+  border: 1px solid aqua;
 }
 
 .text-icons{
@@ -621,21 +630,21 @@ footer .fa-solid{
     flex-direction: column;
   }
 
-  nav ul li {
-    margin: 50px 0;
-    line-height: 10px;
-
-  }
-
   nav ul li a {
     font-size: 20px;
-
+    color: aqua;
+    border-bottom: 1px solid aqua;
+  
   }
 
   li a:hover {
     background: none;
     color:#f5cfef ;
 
+  }
+
+  .fa-house{
+    display: none;
   }
 
   #check:checked~ul {
@@ -653,6 +662,10 @@ footer .fa-solid{
 
 .img-box{
   width: 130px;
+}
+
+.work h1::before {
+ top: 10px;
 }
 
 .about{
@@ -706,6 +719,10 @@ footer .fa-brands{
     top: 70%; 
     color: white;
   
+  }
+
+  .fa-house{
+    display: none;
   }
 
   .contact form{
