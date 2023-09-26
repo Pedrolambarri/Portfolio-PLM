@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +47,7 @@ header {
   color: #525e75;
 }
 
-header span{
+header span {
   font-weight: bold;
   font-size: 4rem;
 }
@@ -84,8 +83,8 @@ ul {
   justify-content: space-around;
 }
 
-.nav-items:hover a{
-  color:white;
+.nav-items:hover a {
+  color: white;
 }
 
 nav li {
@@ -149,7 +148,7 @@ nav a {
   grid-template-rows: repeat(3, 300px);
   column-gap: 10px;
   gap: 15px;
-  width: 60%;
+
   margin-top: 5rem;
 
 }
@@ -163,40 +162,47 @@ nav a {
 
 }
 
-.div1, .div3, .div5, .div7, .div9{
+.div1,
+.div3,
+.div5,
+.div7,
+.div9 {
   background-color: #525e75;
 }
 
-.div2, .div4, .div6, .div8{
+.div2,
+.div4,
+.div6,
+.div8 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.work  p{
+.work p {
   font-size: 1.6rem;
   font-weight: bold;
-  color:#525e75;
+  color: #525e75;
   background-color: rgba(255, 255, 255, .5);
   border-radius: 5px;
   display: none;
 }
 
-.tech-icons{
+.tech-icons {
   display: flex;
   flex-direction: column;
   gap: 20px;
   text-align: center;
- 
+
 }
 
-.tech-icons i{
+.tech-icons i {
   font-size: 4rem;
-  color:#525e75
+  color: #525e75
 }
 
 i:hover {
-  color:#f5cfef;
+  color: #f5cfef;
   cursor: pointer;
 }
 
@@ -215,7 +221,7 @@ i:hover {
 
 }
 
-.div2:hover p{
+.div2:hover p {
   display: block;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -224,7 +230,7 @@ i:hover {
   display: block;
 }
 
-.div4:hover p{
+.div4:hover p {
   display: block;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -233,7 +239,7 @@ i:hover {
   display: block;
 }
 
-.div6:hover p{
+.div6:hover p {
   display: block;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -242,7 +248,7 @@ i:hover {
   display: block;
 }
 
-.div8:hover p{
+.div8:hover p {
   display: block;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -261,7 +267,7 @@ i:hover {
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
-  background-color:#525e75;
+  background-color: #525e75;
   border-radius: 4px;
   padding: 1.5rem;
   top: 50%;
@@ -276,7 +282,7 @@ i:hover {
 }
 
 
-.cv-html:hover a{
+.cv-html:hover a {
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
@@ -301,6 +307,7 @@ i:hover {
     filter: blur(12px);
     opacity: 0;
   }
+
   100% {
     filter: blur(0px);
     opacity: 1;
@@ -328,28 +335,29 @@ i:hover {
 
 /* -----ABOUT SECTION---------*/
 
-.about{
+.about {
   display: flex;
   width: 100%;
   margin-top: 3rem;
   justify-content: space-between;
   background-image: url(images/Astronaut2.jpg);
   background-repeat: no-repeat;
-  background-position:right;
+  background-position: right;
   background-color: black;
   padding: 5rem;
 }
 
-.about-title{
+.about-title {
   position: relative;
- font-size: clamp(.3rem, .3rem + 2vw, 3rem);
- width: 45%;
- color: #f5cfef;
+  font-size: clamp(.3rem, .3rem + 2vw, 3rem);
+  width: 45%;
+  color: #f5cfef;
 }
 
-.about-title .stars{
+.about-title .stars {
   position: absolute;
-  background-color: rgba(255, 255, 255, .5);;
+  background-color: rgba(255, 255, 255, .5);
+  ;
   display: inline;
   width: 20px;
   height: 20px;
@@ -361,7 +369,7 @@ i:hover {
   animation: heartbeat 1.5s ease-in-out infinite both;
 }
 
-.about-title .star2{
+.about-title .star2 {
   position: absolute;
   top: 1rem;
   left: 5rem;
@@ -370,7 +378,7 @@ i:hover {
   height: 15px;
 }
 
-.about-title .star3{
+.about-title .star3 {
   position: absolute;
   top: 2rem;
   left: 8rem;
@@ -379,7 +387,7 @@ i:hover {
   height: 25px;
 }
 
-.about-title .star4{
+.about-title .star4 {
   position: absolute;
   top: .5rem;
   right: 15rem;
@@ -389,7 +397,7 @@ i:hover {
   color: white;
 }
 
-.about-title .star5{
+.about-title .star5 {
   position: absolute;
   top: .1rem;
   right: 30rem;
@@ -399,7 +407,7 @@ i:hover {
   color: white;
 }
 
-.about-title .star6{
+.about-title .star6 {
   position: absolute;
   top: 20rem;
   left: 5rem;
@@ -409,39 +417,39 @@ i:hover {
   color: white;
 }
 
-.about-text{
+.about-text {
   width: 700px;
   font-size: 2rem;
-  background-color:#525e75;
+  background-color: #525e75;
   color: white;
   border-radius: 8px;
   padding: 5rem;
   overflow: hidden;
 }
 
-.about-text:hover{
+.about-text:hover {
   border: 1px solid aqua;
 }
 
-.about-text p{
+.about-text p {
   font-weight: 900;
-  background-color:#a1bdc3;
+  background-color: #a1bdc3;
   border-radius: 20px;
   display: inline-block;
   padding: 1.5rem;
-  margin-top:3rem;
+  margin-top: 3rem;
 }
 
-.about-text:hover p{
+.about-text:hover p {
   border: 1px solid aqua;
 }
 
-.text-icons{
+.text-icons {
   text-align: center;
   margin-top: 3rem;
 }
 
-.text-icons i{
+.text-icons i {
   margin-left: 2rem;
   font-size: 3rem;
 }
@@ -450,8 +458,8 @@ i:hover {
   font-family: 'fontawesome';
   content: '\f04b';
   transform: rotate(180deg);
-  font-size: clamp( 2rem, 5rem + 2vw, 10rem);
-  color: #a1bdc3 ;
+  font-size: clamp(2rem, 5rem + 2vw, 10rem);
+  color: #a1bdc3;
   padding: 3rem;
   display: inline-block;
   position: relative;
@@ -460,18 +468,18 @@ i:hover {
 
 /* ----CONTACT FORM -----*/
 
-.contact{
+.contact {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
-  background-color:#a1bdc3;
-  width: 100%;
+  background-color: #a1bdc3;
+
 
 }
 
-.contact-text{
+.contact-text {
   position: absolute;
   top: 6rem;
   left: 5rem;
@@ -479,102 +487,104 @@ i:hover {
   font-size: 2rem;
 }
 
-.contact-text i{
+.contact-text i {
   padding-right: 1rem;
 }
 
-.contact form{
+.contact form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 50rem;
   margin-bottom: 10rem;
 }
 
-label{
+label {
   font-size: 3rem;
   color: white;
   font-weight: 900;
 }
 
-label:hover{
+label:hover {
   color: #f5cfef;
- 
+
 }
 
 
-input[type="name"]::before{
+input[type="name"]::before {
   font-family: 'fontawesome';
   content: '\f015';
 }
 
-.cactus-img{
+.cactus-img {
   position: absolute;
   bottom: .5rem;
-  
+
 }
 
 
-form input, textarea{
+form input,
+textarea {
   border-radius: 5px;
   border: none;
   outline: none;
 }
 
-input{
+input {
   height: 3rem;
 }
 
-input:hover{
-  border: 3px solid #f5cfef ;
+input:hover {
+  border: 3px solid #f5cfef;
 }
 
-textarea:hover{
-  border: 3px solid #f5cfef ;
+textarea:hover {
+  border: 3px solid #f5cfef;
 }
 
-.contact button{
+.contact button {
   padding: 1rem;
   font-size: 2rem;
   border-radius: 5px;
   border: none;
-  background-color:#525e75;
+  background-color: #525e75;
   color: white;
 }
 
-button:hover{
-  border: 3px solid #f5cfef ;
+button:hover {
+  border: 3px solid #f5cfef;
   color: #006e7f;
-  background-color:#dddddd;
+  background-color: #dddddd;
 }
+
 /* -----FOOTER----------*/
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
   color: white;
-  background-color:#525e75;
+  background-color: #525e75;
   padding: 5rem;
   font-size: 1.5rem;
 }
 
-footer button{
+footer button {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 5px;
   background-color: #a1bdc3;
-  width: 60px;
+  /* width: 60px; */
   height: 60px;
 }
-footer i{
+
+footer i {
   font-size: 3rem;
   color: white;
 }
 
-footer .fa-solid{
+footer .fa-solid {
   transform: rotate(-45deg);
   font-size: 3.5rem;
 }
@@ -583,25 +593,29 @@ footer .fa-solid{
 
 @keyframes heartbeat {
   from {
-            transform: scale(1);
-            transform-origin: center center;
-            animation-timing-function: ease-out;
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
   }
+
   10% {
-            transform: scale(0.91);
-            animation-timing-function: ease-in;
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
   }
+
   17% {
-            transform: scale(0.98);
-            animation-timing-function: ease-out;
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
   }
+
   33% {
-            transform: scale(0.87);
-            animation-timing-function: ease-in;
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
   }
+
   45% {
-            transform: scale(1);
-            animation-timing-function: ease-out;
+    transform: scale(1);
+    animation-timing-function: ease-out;
   }
 }
 
@@ -617,12 +631,20 @@ footer .fa-solid{
 
   }
 
+  .header-title h1 {
+    display: inline-block;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+
+  }
+
   ul {
     display: flex;
     position: fixed;
     width: 100%;
     height: 50vh;
-    background:rgba(82, 94, 117, .8);
+    background: rgba(82, 94, 117, .8);
     top: 80px;
     left: -100%;
     text-align: center;
@@ -634,16 +656,16 @@ footer .fa-solid{
     font-size: 20px;
     color: aqua;
     border-bottom: 1px solid aqua;
-  
+
   }
 
   li a:hover {
     background: none;
-    color:#f5cfef ;
+    color: #f5cfef;
 
   }
 
-  .fa-house{
+  .fa-house {
     display: none;
   }
 
@@ -651,83 +673,82 @@ footer .fa-solid{
     left: 0;
   }
 
-  header{
+  header {
     width: 100%;
   }
-.container{
-  grid-template-columns: repeat(2, 150px);
-  grid-template-rows: repeat(5, 150px);
-  
-}
 
-.img-box{
-  width: 130px;
-}
+  .container {
+    grid-template-columns: repeat(1, 150px);
+    grid-template-rows: repeat(9, 150px);
 
-.work h1::before {
- top: 10px;
-}
+  }
 
-.about{
-  justify-content: center;
-  flex-wrap:wrap-reverse;
-}
+  .img-box {
+    width: 130px;
+  }
 
-.about-text  p{
-  font-size: 1rem;
-}
+  .work h1::before {
+    top: 10px;
+  }
 
-.text-icons i{
-  font-size: 1rem;
-}
+  .about {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+  }
 
-.contact form{
-  width: 25rem;
-  height: 40rem;
+  .about-text p {
+    font-size: 1rem;
+  }
 
-}
+  .text-icons i {
+    font-size: 1rem;
+  }
 
-label, input{
-  font-size: 1.5rem;
-}
+  .contact form {
 
-footer .fa-brands{
-  display: none;
-}
+    height: 40rem;
 
-.contact-text{
- display: none;
-}
+  }
+
+  label,
+  input {
+    font-size: 1.5rem;
+  }
+
+  footer .fa-brands {
+    display: none;
+  }
+
+  .contact-text {
+    display: none;
+  }
 
 
 }
 
 @media screen and (max-width:390px) {
-  .container{
-    grid-template-columns: repeat(1, 150px);
-    grid-template-rows: repeat(9, 150px);
-    
+
+
+  header {
+    position: relative;
   }
-   
-  header{
-    position:relative;
-  }
+
   .header-title h1 {
     display: inline-block;
     position: absolute;
     left: 30%;
-    top: 70%; 
-    color: white;
-  
+    top: 70%;
+    color: #f5cfef;
+
   }
 
-  .fa-house{
+  .fa-house {
     display: none;
   }
 
-  .contact form{
-    width: 20rem;
+  .contact form {
+
     height: 30rem;
-  
+
   }
 }
